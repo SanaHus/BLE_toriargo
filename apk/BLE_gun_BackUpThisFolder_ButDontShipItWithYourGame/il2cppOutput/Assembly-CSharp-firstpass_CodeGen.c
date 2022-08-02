@@ -1,0 +1,377 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+// 0x00000001 System.Void BluetoothDevice::Start()
+extern void BluetoothDevice_Start_m00697D96391F863675B5F03D48DA117B10448A14 (void);
+// 0x00000002 System.Void BluetoothDevice::Update()
+extern void BluetoothDevice_Update_m8ADB4324A4ED5DA83992585AEEE44667719BCBCC (void);
+// 0x00000003 System.Void BluetoothDevice::OnBluetoothMessage(System.String)
+extern void BluetoothDevice_OnBluetoothMessage_m4A662A3328525057219E5F905FE317C3091F6E86 (void);
+// 0x00000004 System.Void BluetoothDevice::OnBluetoothData(System.String)
+extern void BluetoothDevice_OnBluetoothData_m598CA37223AF05E0B8015674079F4923C7E047E1 (void);
+// 0x00000005 System.Void BluetoothDevice::OnBluetoothData(System.String,System.String,System.String)
+extern void BluetoothDevice_OnBluetoothData_mFE2B6CD58A0613D9EEBF614E5A9F9515F36621A8 (void);
+// 0x00000006 System.Void BluetoothDevice::OnPeripheralData(System.String,System.String)
+extern void BluetoothDevice_OnPeripheralData_m20D742F4F3575E985833499EBE442BC68F5AE24E (void);
+// 0x00000007 System.Void BluetoothDevice::.ctor()
+extern void BluetoothDevice__ctor_m2ABE5BEDFB958EDD5B308871ECB6A190C2E049EA (void);
+// 0x00000008 System.Void BluetoothLEHardwareInterface1::Log(System.String)
+extern void BluetoothLEHardwareInterface1_Log_m5A4689060972A79EDED471D7644F5261704D844C (void);
+// 0x00000009 BluetoothDevice BluetoothLEHardwareInterface1::Initialize(System.Boolean,System.Boolean,System.Action,System.Action`1<System.String>)
+extern void BluetoothLEHardwareInterface1_Initialize_mA0BBF738345393218A86F78357F0CABD4B8C74B8 (void);
+// 0x0000000A System.Void BluetoothLEHardwareInterface1::DeInitialize(System.Action)
+extern void BluetoothLEHardwareInterface1_DeInitialize_m66EBE572499BD29345941715DE4A6D22D24E44A3 (void);
+// 0x0000000B System.Void BluetoothLEHardwareInterface1::FinishDeInitialize()
+extern void BluetoothLEHardwareInterface1_FinishDeInitialize_m379FFF83B2EE0B35B3ABE7B32B24EBAF6C8C4A48 (void);
+// 0x0000000C System.Void BluetoothLEHardwareInterface1::BluetoothEnable(System.Boolean)
+extern void BluetoothLEHardwareInterface1_BluetoothEnable_m6E4C89B10B5F0CCCEC4CFA98C20BB8DC8E53B985 (void);
+// 0x0000000D System.Void BluetoothLEHardwareInterface1::BluetoothScanMode(BluetoothLEHardwareInterface1/ScanMode)
+extern void BluetoothLEHardwareInterface1_BluetoothScanMode_m4A16B99DBBBBC5EC20E577B99FFEBBD1E566451A (void);
+// 0x0000000E System.Void BluetoothLEHardwareInterface1::BluetoothConnectionPriority(BluetoothLEHardwareInterface1/ConnectionPriority)
+extern void BluetoothLEHardwareInterface1_BluetoothConnectionPriority_m66FCF97872951364D714A1234D826014BCAE06F1 (void);
+// 0x0000000F System.Void BluetoothLEHardwareInterface1::PauseMessages(System.Boolean)
+extern void BluetoothLEHardwareInterface1_PauseMessages_m3868771F5A091E59D2F02BB4A63CB98D33AA67EA (void);
+// 0x00000010 System.Void BluetoothLEHardwareInterface1::ScanForBeacons(System.String[],System.Action`1<BluetoothLEHardwareInterface1/iBeaconData>)
+extern void BluetoothLEHardwareInterface1_ScanForBeacons_m015AC6E07C4ADFBD8FBA46C9C3DC10EFBA379F29 (void);
+// 0x00000011 System.Void BluetoothLEHardwareInterface1::RequestMtu(System.String,System.Int32,System.Action`2<System.String,System.Int32>)
+extern void BluetoothLEHardwareInterface1_RequestMtu_mA49A60683C72794933B4176B6A65A96038BD22C8 (void);
+// 0x00000012 System.Void BluetoothLEHardwareInterface1::ScanForPeripheralsWithServices(System.String[],System.Action`2<System.String,System.String>,System.Action`4<System.String,System.String,System.Int32,System.Byte[]>,System.Boolean,System.Boolean,System.Int32)
+extern void BluetoothLEHardwareInterface1_ScanForPeripheralsWithServices_m6DD8DB8D6434629978C0009079BC0AF231D829C5 (void);
+// 0x00000013 System.Void BluetoothLEHardwareInterface1::RetrieveListOfPeripheralsWithServices(System.String[],System.Action`2<System.String,System.String>)
+extern void BluetoothLEHardwareInterface1_RetrieveListOfPeripheralsWithServices_m0B5F52877748924A82A9CC005132F83C2390D8ED (void);
+// 0x00000014 System.Void BluetoothLEHardwareInterface1::StopScan()
+extern void BluetoothLEHardwareInterface1_StopScan_mD2C423C92B5842116DDA5F9EC7A1CBF707D072CA (void);
+// 0x00000015 System.Void BluetoothLEHardwareInterface1::StopBeaconScan()
+extern void BluetoothLEHardwareInterface1_StopBeaconScan_mCC5FF730B25D3DB35669F3DC65F53C68D6C7B81A (void);
+// 0x00000016 System.Void BluetoothLEHardwareInterface1::DisconnectAll()
+extern void BluetoothLEHardwareInterface1_DisconnectAll_m3976AA5A3939A1C74BDFEE2C3C2FE831BF9B3555 (void);
+// 0x00000017 System.Void BluetoothLEHardwareInterface1::ConnectToPeripheral(System.String,System.Action`1<System.String>,System.Action`2<System.String,System.String>,System.Action`3<System.String,System.String,System.String>,System.Action`1<System.String>)
+extern void BluetoothLEHardwareInterface1_ConnectToPeripheral_m5AABFAC8A9A55D28574942641713916A43651481 (void);
+// 0x00000018 System.Void BluetoothLEHardwareInterface1::DisconnectPeripheral(System.String,System.Action`1<System.String>)
+extern void BluetoothLEHardwareInterface1_DisconnectPeripheral_m624180AEC564AB90201AD176BBFBAC7EF6FA2BE2 (void);
+// 0x00000019 System.Void BluetoothLEHardwareInterface1::ReadCharacteristic(System.String,System.String,System.String,System.Action`2<System.String,System.Byte[]>)
+extern void BluetoothLEHardwareInterface1_ReadCharacteristic_mF65E64EB17E6B3B9AAF71AE49E15648F0449997D (void);
+// 0x0000001A System.Void BluetoothLEHardwareInterface1::WriteCharacteristic(System.String,System.String,System.String,System.Byte[],System.Int32,System.Boolean,System.Action`1<System.String>)
+extern void BluetoothLEHardwareInterface1_WriteCharacteristic_m532A20C4ECAB8413B2EDE5850FE896E4498F0E3E (void);
+// 0x0000001B System.Void BluetoothLEHardwareInterface1::SubscribeCharacteristic(System.String,System.String,System.String,System.Action`1<System.String>,System.Action`2<System.String,System.Byte[]>)
+extern void BluetoothLEHardwareInterface1_SubscribeCharacteristic_mAB6F4B748F0AC2393527792BCACBE64E983A6176 (void);
+// 0x0000001C System.Void BluetoothLEHardwareInterface1::SubscribeCharacteristicWithDeviceAddress(System.String,System.String,System.String,System.Action`2<System.String,System.String>,System.Action`3<System.String,System.String,System.Byte[]>)
+extern void BluetoothLEHardwareInterface1_SubscribeCharacteristicWithDeviceAddress_m2F8796D630C9E8C28CAD2C9A96B62E2271BBAD28 (void);
+// 0x0000001D System.Void BluetoothLEHardwareInterface1::UnSubscribeCharacteristic(System.String,System.String,System.String,System.Action`1<System.String>)
+extern void BluetoothLEHardwareInterface1_UnSubscribeCharacteristic_mBD1A632C6E13ACC5D73F20F55A677ABBF9E25F58 (void);
+// 0x0000001E System.Void BluetoothLEHardwareInterface1::PeripheralName(System.String)
+extern void BluetoothLEHardwareInterface1_PeripheralName_m717109FECD53CAC1973A93575EDA8F3D2E57B250 (void);
+// 0x0000001F System.Void BluetoothLEHardwareInterface1::CreateService(System.String,System.Boolean,System.Action`1<System.String>)
+extern void BluetoothLEHardwareInterface1_CreateService_m83C6B081402E6EC186512EB1A921000DD0561B97 (void);
+// 0x00000020 System.Void BluetoothLEHardwareInterface1::RemoveService(System.String)
+extern void BluetoothLEHardwareInterface1_RemoveService_m964776811AC78A792D00A8D0CFDBE5C5ACF62078 (void);
+// 0x00000021 System.Void BluetoothLEHardwareInterface1::RemoveServices()
+extern void BluetoothLEHardwareInterface1_RemoveServices_m7C44C7C9BC136CA697EC3F7ADA0FF5149BA54E2D (void);
+// 0x00000022 System.Void BluetoothLEHardwareInterface1::CreateCharacteristic(System.String,BluetoothLEHardwareInterface1/CBCharacteristicProperties,BluetoothLEHardwareInterface1/CBAttributePermissions,System.Byte[],System.Int32,System.Action`2<System.String,System.Byte[]>)
+extern void BluetoothLEHardwareInterface1_CreateCharacteristic_m610F9555A3100C4B188E0E2781969F708F454C51 (void);
+// 0x00000023 System.Void BluetoothLEHardwareInterface1::RemoveCharacteristic(System.String)
+extern void BluetoothLEHardwareInterface1_RemoveCharacteristic_m21574F97C523FB196E7704EA6D915A11BDC9D086 (void);
+// 0x00000024 System.Void BluetoothLEHardwareInterface1::RemoveCharacteristics()
+extern void BluetoothLEHardwareInterface1_RemoveCharacteristics_m811215C14C69D3D9CAFE68FF57124D243E4D902B (void);
+// 0x00000025 System.Void BluetoothLEHardwareInterface1::StartAdvertising(System.Action)
+extern void BluetoothLEHardwareInterface1_StartAdvertising_mDA7A7E50760A746207415EEB208261C7295C47CE (void);
+// 0x00000026 System.Void BluetoothLEHardwareInterface1::StopAdvertising(System.Action)
+extern void BluetoothLEHardwareInterface1_StopAdvertising_m13B1950AF6E859A82BE6244603E2CAE20914D425 (void);
+// 0x00000027 System.Void BluetoothLEHardwareInterface1::UpdateCharacteristicValue(System.String,System.Byte[],System.Int32)
+extern void BluetoothLEHardwareInterface1_UpdateCharacteristicValue_m63443ECAB5C655F489FCE6D9DC7E571A3696A3E4 (void);
+// 0x00000028 System.String BluetoothLEHardwareInterface1::FullUUID(System.String)
+extern void BluetoothLEHardwareInterface1_FullUUID_mE392D96D8589D6D95D5DB55452746395536C7E35 (void);
+// 0x00000029 System.Void BluetoothLEHardwareInterface1::.ctor()
+extern void BluetoothLEHardwareInterface1__ctor_mC155FB87F698708B2439E473A167DDDD9F434698 (void);
+// 0x0000002A System.Void BluetoothDeviceScript::Start()
+extern void BluetoothDeviceScript_Start_m53F8F286D6BE17577FAF0DD4E5D671D9B2DDFE64 (void);
+// 0x0000002B System.Void BluetoothDeviceScript::Update()
+extern void BluetoothDeviceScript_Update_m7CE25112852AB386721649D3849111E326B465A0 (void);
+// 0x0000002C System.Void BluetoothDeviceScript::OnBluetoothMessage(System.String)
+extern void BluetoothDeviceScript_OnBluetoothMessage_m80BB33FD05C1343CCDF235788EFB697AA33831DF (void);
+// 0x0000002D System.Void BluetoothDeviceScript::OnBluetoothData(System.String)
+extern void BluetoothDeviceScript_OnBluetoothData_mF56A6ED89634D42E0D2EED26ED77B11E54BDD1A2 (void);
+// 0x0000002E System.Void BluetoothDeviceScript::OnBluetoothData(System.String,System.String,System.String)
+extern void BluetoothDeviceScript_OnBluetoothData_mC3C7BE5FBFA895495E5D3F2F2147C73378437C2D (void);
+// 0x0000002F System.Void BluetoothDeviceScript::OnPeripheralData(System.String,System.String)
+extern void BluetoothDeviceScript_OnPeripheralData_mD3F92D2EA496B24CFB212E6D72E2C6BB0891CE96 (void);
+// 0x00000030 System.Void BluetoothDeviceScript::.ctor()
+extern void BluetoothDeviceScript__ctor_m5F849731E2A15C2B4581BAD3E9F949809793E373 (void);
+// 0x00000031 System.Void BluetoothLEHardwareInterface::StartService()
+extern void BluetoothLEHardwareInterface_StartService_m2F61B4C5B0930A5FDEDD0DE3780898E3FCA7AC73 (void);
+// 0x00000032 System.Void BluetoothLEHardwareInterface::Log(System.String)
+extern void BluetoothLEHardwareInterface_Log_mE8BD6E73FB65405834DBC8CADB78FD01B1C67385 (void);
+// 0x00000033 BluetoothDeviceScript BluetoothLEHardwareInterface::Initialize(System.Boolean,System.Boolean,System.Action`1<System.String>,System.Action`1<System.String>)
+extern void BluetoothLEHardwareInterface_Initialize_m7883D0AACCB9F58A588C165EA0FA9CC58951377D (void);
+// 0x00000034 System.Void BluetoothLEHardwareInterface::DeInitialize(System.Action)
+extern void BluetoothLEHardwareInterface_DeInitialize_mE5681E45C181D4467C56D8D7479041531106DEA9 (void);
+// 0x00000035 System.Void BluetoothLEHardwareInterface::FinishDeInitialize()
+extern void BluetoothLEHardwareInterface_FinishDeInitialize_m4E276D6FFA746F913E33B5274891788DD55A017E (void);
+// 0x00000036 System.Void BluetoothLEHardwareInterface::PauseMessages(System.Boolean)
+extern void BluetoothLEHardwareInterface_PauseMessages_mBDCE4B50AEF019D6736CAC510217ACB4AD0510B9 (void);
+// 0x00000037 System.Void BluetoothLEHardwareInterface::ScanForPeripheralsWithServices(System.String[],System.Action`2<System.String,System.String>,System.Action`4<System.String,System.String,System.Int32,System.Byte[]>)
+extern void BluetoothLEHardwareInterface_ScanForPeripheralsWithServices_mF6E23938C8C644AA0CFA87C15CBD1F11D8B9496D (void);
+// 0x00000038 System.Void BluetoothLEHardwareInterface::RetrieveListOfPeripheralsWithServices(System.String[],System.Action`2<System.String,System.String>)
+extern void BluetoothLEHardwareInterface_RetrieveListOfPeripheralsWithServices_mCE991C4BD0394988533925B991FA29442D71A45C (void);
+// 0x00000039 System.Void BluetoothLEHardwareInterface::StopScan()
+extern void BluetoothLEHardwareInterface_StopScan_m56E0C221751F793ED8426C95C37E9BDD0762998F (void);
+// 0x0000003A System.Void BluetoothLEHardwareInterface::ConnectToPeripheral(System.String,System.Action`1<System.String>,System.Action`2<System.String,System.String>,System.Action`3<System.String,System.String,System.String>,System.Action`1<System.String>)
+extern void BluetoothLEHardwareInterface_ConnectToPeripheral_mFAF4A4FAF9DE4631AB912747B9A2EB6BA7D3EC0B (void);
+// 0x0000003B System.Void BluetoothLEHardwareInterface::ConnectToPeripheralReg(System.Action`1<System.String>,System.Action`2<System.String,System.String>,System.Action`3<System.String,System.String,System.String>,System.Action`1<System.String>)
+extern void BluetoothLEHardwareInterface_ConnectToPeripheralReg_mAF552F1B267BEBC2F18A577FD32694F8770F48C7 (void);
+// 0x0000003C System.Void BluetoothLEHardwareInterface::DisconnectPeripheral(System.String,System.Action`1<System.String>)
+extern void BluetoothLEHardwareInterface_DisconnectPeripheral_mDABC20CB04ED6DCDF3676124B63DF34D7EF692D0 (void);
+// 0x0000003D System.Void BluetoothLEHardwareInterface::ReadCharacteristic(System.String,System.String,System.String,System.Action`2<System.String,System.Byte[]>)
+extern void BluetoothLEHardwareInterface_ReadCharacteristic_m4EB7E31255248E088FC18BBF901681095C162F3C (void);
+// 0x0000003E System.Void BluetoothLEHardwareInterface::WriteCharacteristic(System.String,System.String,System.String,System.Byte[],System.Int32,System.Boolean,System.Action`1<System.String>)
+extern void BluetoothLEHardwareInterface_WriteCharacteristic_m60A9318801C147A7EC79FF0C506E411AA0B56585 (void);
+// 0x0000003F System.Void BluetoothLEHardwareInterface::SubscribeCharacteristic(System.String,System.String,System.String,System.Action`1<System.String>,System.Action`2<System.String,System.Byte[]>)
+extern void BluetoothLEHardwareInterface_SubscribeCharacteristic_m6969EB33904897C298831B26FF6E05D3377E11DC (void);
+// 0x00000040 System.Void BluetoothLEHardwareInterface::SubscribeCharacteristicWithDeviceAddress(System.String,System.String,System.String,System.Action`2<System.String,System.String>,System.Action`3<System.String,System.String,System.Byte[]>)
+extern void BluetoothLEHardwareInterface_SubscribeCharacteristicWithDeviceAddress_m2901F4ABF3852CB67100C6E4654BCCBA4AC9D3A6 (void);
+// 0x00000041 System.Void BluetoothLEHardwareInterface::SubscribeCharacteristicWithDeviceAddressReg(System.Action`2<System.String,System.String>,System.Action`3<System.String,System.String,System.Byte[]>)
+extern void BluetoothLEHardwareInterface_SubscribeCharacteristicWithDeviceAddressReg_m7E25D8EA3F33ED5F00A3319D81ADDDB10ADD8CCB (void);
+// 0x00000042 System.Void BluetoothLEHardwareInterface::UnSubscribeCharacteristic(System.String,System.String,System.String,System.Action`1<System.String>)
+extern void BluetoothLEHardwareInterface_UnSubscribeCharacteristic_mD74FA8EBC972ADEE671AAE356F3B9E12EA839637 (void);
+// 0x00000043 System.Void BluetoothLEHardwareInterface::PeripheralName(System.String)
+extern void BluetoothLEHardwareInterface_PeripheralName_m277F4322E7F32A295370EB8F6065FAECB20A6B51 (void);
+// 0x00000044 System.Void BluetoothLEHardwareInterface::CreateService(System.String,System.Boolean,System.Action`1<System.String>)
+extern void BluetoothLEHardwareInterface_CreateService_mAE63186C54F74F89E389F640CD03503C864A5D17 (void);
+// 0x00000045 System.Void BluetoothLEHardwareInterface::RemoveService(System.String)
+extern void BluetoothLEHardwareInterface_RemoveService_m3A0E3287757FB4E10C86EAC611F1DBF6569CF1C5 (void);
+// 0x00000046 System.Void BluetoothLEHardwareInterface::RemoveServices()
+extern void BluetoothLEHardwareInterface_RemoveServices_m9D72D31BFB0B6EEAE6A0E4938A144328808D6BA8 (void);
+// 0x00000047 System.Void BluetoothLEHardwareInterface::CreateCharacteristic(System.String,BluetoothLEHardwareInterface/CBCharacteristicProperties,BluetoothLEHardwareInterface/CBAttributePermissions,System.Byte[],System.Int32,System.Action`2<System.String,System.Byte[]>)
+extern void BluetoothLEHardwareInterface_CreateCharacteristic_mF96C5F892393FD3B930FCA83702AC549EE7DC7E2 (void);
+// 0x00000048 System.Void BluetoothLEHardwareInterface::RemoveCharacteristic(System.String)
+extern void BluetoothLEHardwareInterface_RemoveCharacteristic_m6FAC311598EEFBBBD927CA848C3A5C47F50508E4 (void);
+// 0x00000049 System.Void BluetoothLEHardwareInterface::RemoveCharacteristics()
+extern void BluetoothLEHardwareInterface_RemoveCharacteristics_m70A33AB4B06F3E9C0891A3E35D6077CAC32C64B2 (void);
+// 0x0000004A System.Void BluetoothLEHardwareInterface::StartAdvertising(System.Action)
+extern void BluetoothLEHardwareInterface_StartAdvertising_mD2DA07943EDFE33EC208F564D7209C2C3D341AD5 (void);
+// 0x0000004B System.Void BluetoothLEHardwareInterface::StopAdvertising(System.Action)
+extern void BluetoothLEHardwareInterface_StopAdvertising_mF770FD1B20379CAD00089300BE7A87D731E1153E (void);
+// 0x0000004C System.Void BluetoothLEHardwareInterface::UpdateCharacteristicValue(System.String,System.Byte[],System.Int32)
+extern void BluetoothLEHardwareInterface_UpdateCharacteristicValue_mFDEDEC1F3641A4F8E49CDE3BD12E8F14043AF30E (void);
+// 0x0000004D System.Void BluetoothLEHardwareInterface::SetPassNumber(System.Int32[],System.Int32[])
+extern void BluetoothLEHardwareInterface_SetPassNumber_m91862724887BA039F6DC1977945FC52B6C3603EC (void);
+// 0x0000004E System.Void BluetoothLEHardwareInterface::RequestRssi(System.Boolean)
+extern void BluetoothLEHardwareInterface_RequestRssi_mE54828C83177E06C8C7FDCE6FBA75A60448F7E5C (void);
+// 0x0000004F System.Void BluetoothLEHardwareInterface::SetAppPaused(System.Boolean)
+extern void BluetoothLEHardwareInterface_SetAppPaused_m22C8D7AF61962817BFB1AF2A035CE9094BB3939E (void);
+// 0x00000050 System.Void BluetoothLEHardwareInterface::SetKeyData(System.String,System.Boolean,System.String,System.String,System.Boolean,System.Int32,System.Int32)
+extern void BluetoothLEHardwareInterface_SetKeyData_m9C696AE0107D446313AB64D9715DD0A10142AEFA (void);
+// 0x00000051 System.Boolean BluetoothLEHardwareInterface::IsConnectAddress(System.String)
+extern void BluetoothLEHardwareInterface_IsConnectAddress_m0F5D0B96F3B3D0C47590EEDFE48F2478C358142B (void);
+// 0x00000052 System.Boolean BluetoothLEHardwareInterface::isBleEnabled()
+extern void BluetoothLEHardwareInterface_isBleEnabled_mF4C480ADA2C4D2C00814D9F455084BE24DBB79BB (void);
+// 0x00000053 System.Void BluetoothLEHardwareInterface::showBleSettingPopup()
+extern void BluetoothLEHardwareInterface_showBleSettingPopup_m64BE99C0193888CA4F761E36DB8CA041F6CED942 (void);
+// 0x00000054 System.Void BluetoothLEHardwareInterface::.ctor()
+extern void BluetoothLEHardwareInterface__ctor_m2CBB7B185D09793C14DA2E5A5A7D1AD758C02C5B (void);
+static Il2CppMethodPointer s_methodPointers[84] = 
+{
+	BluetoothDevice_Start_m00697D96391F863675B5F03D48DA117B10448A14,
+	BluetoothDevice_Update_m8ADB4324A4ED5DA83992585AEEE44667719BCBCC,
+	BluetoothDevice_OnBluetoothMessage_m4A662A3328525057219E5F905FE317C3091F6E86,
+	BluetoothDevice_OnBluetoothData_m598CA37223AF05E0B8015674079F4923C7E047E1,
+	BluetoothDevice_OnBluetoothData_mFE2B6CD58A0613D9EEBF614E5A9F9515F36621A8,
+	BluetoothDevice_OnPeripheralData_m20D742F4F3575E985833499EBE442BC68F5AE24E,
+	BluetoothDevice__ctor_m2ABE5BEDFB958EDD5B308871ECB6A190C2E049EA,
+	BluetoothLEHardwareInterface1_Log_m5A4689060972A79EDED471D7644F5261704D844C,
+	BluetoothLEHardwareInterface1_Initialize_mA0BBF738345393218A86F78357F0CABD4B8C74B8,
+	BluetoothLEHardwareInterface1_DeInitialize_m66EBE572499BD29345941715DE4A6D22D24E44A3,
+	BluetoothLEHardwareInterface1_FinishDeInitialize_m379FFF83B2EE0B35B3ABE7B32B24EBAF6C8C4A48,
+	BluetoothLEHardwareInterface1_BluetoothEnable_m6E4C89B10B5F0CCCEC4CFA98C20BB8DC8E53B985,
+	BluetoothLEHardwareInterface1_BluetoothScanMode_m4A16B99DBBBBC5EC20E577B99FFEBBD1E566451A,
+	BluetoothLEHardwareInterface1_BluetoothConnectionPriority_m66FCF97872951364D714A1234D826014BCAE06F1,
+	BluetoothLEHardwareInterface1_PauseMessages_m3868771F5A091E59D2F02BB4A63CB98D33AA67EA,
+	BluetoothLEHardwareInterface1_ScanForBeacons_m015AC6E07C4ADFBD8FBA46C9C3DC10EFBA379F29,
+	BluetoothLEHardwareInterface1_RequestMtu_mA49A60683C72794933B4176B6A65A96038BD22C8,
+	BluetoothLEHardwareInterface1_ScanForPeripheralsWithServices_m6DD8DB8D6434629978C0009079BC0AF231D829C5,
+	BluetoothLEHardwareInterface1_RetrieveListOfPeripheralsWithServices_m0B5F52877748924A82A9CC005132F83C2390D8ED,
+	BluetoothLEHardwareInterface1_StopScan_mD2C423C92B5842116DDA5F9EC7A1CBF707D072CA,
+	BluetoothLEHardwareInterface1_StopBeaconScan_mCC5FF730B25D3DB35669F3DC65F53C68D6C7B81A,
+	BluetoothLEHardwareInterface1_DisconnectAll_m3976AA5A3939A1C74BDFEE2C3C2FE831BF9B3555,
+	BluetoothLEHardwareInterface1_ConnectToPeripheral_m5AABFAC8A9A55D28574942641713916A43651481,
+	BluetoothLEHardwareInterface1_DisconnectPeripheral_m624180AEC564AB90201AD176BBFBAC7EF6FA2BE2,
+	BluetoothLEHardwareInterface1_ReadCharacteristic_mF65E64EB17E6B3B9AAF71AE49E15648F0449997D,
+	BluetoothLEHardwareInterface1_WriteCharacteristic_m532A20C4ECAB8413B2EDE5850FE896E4498F0E3E,
+	BluetoothLEHardwareInterface1_SubscribeCharacteristic_mAB6F4B748F0AC2393527792BCACBE64E983A6176,
+	BluetoothLEHardwareInterface1_SubscribeCharacteristicWithDeviceAddress_m2F8796D630C9E8C28CAD2C9A96B62E2271BBAD28,
+	BluetoothLEHardwareInterface1_UnSubscribeCharacteristic_mBD1A632C6E13ACC5D73F20F55A677ABBF9E25F58,
+	BluetoothLEHardwareInterface1_PeripheralName_m717109FECD53CAC1973A93575EDA8F3D2E57B250,
+	BluetoothLEHardwareInterface1_CreateService_m83C6B081402E6EC186512EB1A921000DD0561B97,
+	BluetoothLEHardwareInterface1_RemoveService_m964776811AC78A792D00A8D0CFDBE5C5ACF62078,
+	BluetoothLEHardwareInterface1_RemoveServices_m7C44C7C9BC136CA697EC3F7ADA0FF5149BA54E2D,
+	BluetoothLEHardwareInterface1_CreateCharacteristic_m610F9555A3100C4B188E0E2781969F708F454C51,
+	BluetoothLEHardwareInterface1_RemoveCharacteristic_m21574F97C523FB196E7704EA6D915A11BDC9D086,
+	BluetoothLEHardwareInterface1_RemoveCharacteristics_m811215C14C69D3D9CAFE68FF57124D243E4D902B,
+	BluetoothLEHardwareInterface1_StartAdvertising_mDA7A7E50760A746207415EEB208261C7295C47CE,
+	BluetoothLEHardwareInterface1_StopAdvertising_m13B1950AF6E859A82BE6244603E2CAE20914D425,
+	BluetoothLEHardwareInterface1_UpdateCharacteristicValue_m63443ECAB5C655F489FCE6D9DC7E571A3696A3E4,
+	BluetoothLEHardwareInterface1_FullUUID_mE392D96D8589D6D95D5DB55452746395536C7E35,
+	BluetoothLEHardwareInterface1__ctor_mC155FB87F698708B2439E473A167DDDD9F434698,
+	BluetoothDeviceScript_Start_m53F8F286D6BE17577FAF0DD4E5D671D9B2DDFE64,
+	BluetoothDeviceScript_Update_m7CE25112852AB386721649D3849111E326B465A0,
+	BluetoothDeviceScript_OnBluetoothMessage_m80BB33FD05C1343CCDF235788EFB697AA33831DF,
+	BluetoothDeviceScript_OnBluetoothData_mF56A6ED89634D42E0D2EED26ED77B11E54BDD1A2,
+	BluetoothDeviceScript_OnBluetoothData_mC3C7BE5FBFA895495E5D3F2F2147C73378437C2D,
+	BluetoothDeviceScript_OnPeripheralData_mD3F92D2EA496B24CFB212E6D72E2C6BB0891CE96,
+	BluetoothDeviceScript__ctor_m5F849731E2A15C2B4581BAD3E9F949809793E373,
+	BluetoothLEHardwareInterface_StartService_m2F61B4C5B0930A5FDEDD0DE3780898E3FCA7AC73,
+	BluetoothLEHardwareInterface_Log_mE8BD6E73FB65405834DBC8CADB78FD01B1C67385,
+	BluetoothLEHardwareInterface_Initialize_m7883D0AACCB9F58A588C165EA0FA9CC58951377D,
+	BluetoothLEHardwareInterface_DeInitialize_mE5681E45C181D4467C56D8D7479041531106DEA9,
+	BluetoothLEHardwareInterface_FinishDeInitialize_m4E276D6FFA746F913E33B5274891788DD55A017E,
+	BluetoothLEHardwareInterface_PauseMessages_mBDCE4B50AEF019D6736CAC510217ACB4AD0510B9,
+	BluetoothLEHardwareInterface_ScanForPeripheralsWithServices_mF6E23938C8C644AA0CFA87C15CBD1F11D8B9496D,
+	BluetoothLEHardwareInterface_RetrieveListOfPeripheralsWithServices_mCE991C4BD0394988533925B991FA29442D71A45C,
+	BluetoothLEHardwareInterface_StopScan_m56E0C221751F793ED8426C95C37E9BDD0762998F,
+	BluetoothLEHardwareInterface_ConnectToPeripheral_mFAF4A4FAF9DE4631AB912747B9A2EB6BA7D3EC0B,
+	BluetoothLEHardwareInterface_ConnectToPeripheralReg_mAF552F1B267BEBC2F18A577FD32694F8770F48C7,
+	BluetoothLEHardwareInterface_DisconnectPeripheral_mDABC20CB04ED6DCDF3676124B63DF34D7EF692D0,
+	BluetoothLEHardwareInterface_ReadCharacteristic_m4EB7E31255248E088FC18BBF901681095C162F3C,
+	BluetoothLEHardwareInterface_WriteCharacteristic_m60A9318801C147A7EC79FF0C506E411AA0B56585,
+	BluetoothLEHardwareInterface_SubscribeCharacteristic_m6969EB33904897C298831B26FF6E05D3377E11DC,
+	BluetoothLEHardwareInterface_SubscribeCharacteristicWithDeviceAddress_m2901F4ABF3852CB67100C6E4654BCCBA4AC9D3A6,
+	BluetoothLEHardwareInterface_SubscribeCharacteristicWithDeviceAddressReg_m7E25D8EA3F33ED5F00A3319D81ADDDB10ADD8CCB,
+	BluetoothLEHardwareInterface_UnSubscribeCharacteristic_mD74FA8EBC972ADEE671AAE356F3B9E12EA839637,
+	BluetoothLEHardwareInterface_PeripheralName_m277F4322E7F32A295370EB8F6065FAECB20A6B51,
+	BluetoothLEHardwareInterface_CreateService_mAE63186C54F74F89E389F640CD03503C864A5D17,
+	BluetoothLEHardwareInterface_RemoveService_m3A0E3287757FB4E10C86EAC611F1DBF6569CF1C5,
+	BluetoothLEHardwareInterface_RemoveServices_m9D72D31BFB0B6EEAE6A0E4938A144328808D6BA8,
+	BluetoothLEHardwareInterface_CreateCharacteristic_mF96C5F892393FD3B930FCA83702AC549EE7DC7E2,
+	BluetoothLEHardwareInterface_RemoveCharacteristic_m6FAC311598EEFBBBD927CA848C3A5C47F50508E4,
+	BluetoothLEHardwareInterface_RemoveCharacteristics_m70A33AB4B06F3E9C0891A3E35D6077CAC32C64B2,
+	BluetoothLEHardwareInterface_StartAdvertising_mD2DA07943EDFE33EC208F564D7209C2C3D341AD5,
+	BluetoothLEHardwareInterface_StopAdvertising_mF770FD1B20379CAD00089300BE7A87D731E1153E,
+	BluetoothLEHardwareInterface_UpdateCharacteristicValue_mFDEDEC1F3641A4F8E49CDE3BD12E8F14043AF30E,
+	BluetoothLEHardwareInterface_SetPassNumber_m91862724887BA039F6DC1977945FC52B6C3603EC,
+	BluetoothLEHardwareInterface_RequestRssi_mE54828C83177E06C8C7FDCE6FBA75A60448F7E5C,
+	BluetoothLEHardwareInterface_SetAppPaused_m22C8D7AF61962817BFB1AF2A035CE9094BB3939E,
+	BluetoothLEHardwareInterface_SetKeyData_m9C696AE0107D446313AB64D9715DD0A10142AEFA,
+	BluetoothLEHardwareInterface_IsConnectAddress_m0F5D0B96F3B3D0C47590EEDFE48F2478C358142B,
+	BluetoothLEHardwareInterface_isBleEnabled_mF4C480ADA2C4D2C00814D9F455084BE24DBB79BB,
+	BluetoothLEHardwareInterface_showBleSettingPopup_m64BE99C0193888CA4F761E36DB8CA041F6CED942,
+	BluetoothLEHardwareInterface__ctor_m2CBB7B185D09793C14DA2E5A5A7D1AD758C02C5B,
+};
+static const int32_t s_InvokerIndices[84] = 
+{
+	3207,
+	3207,
+	2622,
+	2622,
+	809,
+	1477,
+	3207,
+	4864,
+	3697,
+	4864,
+	4964,
+	4857,
+	4860,
+	4860,
+	4857,
+	4494,
+	4106,
+	3400,
+	4494,
+	4964,
+	4964,
+	4964,
+	3554,
+	4494,
+	3791,
+	3339,
+	3554,
+	3554,
+	3791,
+	4864,
+	4101,
+	4864,
+	4964,
+	3397,
+	4864,
+	4964,
+	4864,
+	4864,
+	4113,
+	4727,
+	3207,
+	3207,
+	3207,
+	2622,
+	2622,
+	809,
+	1477,
+	3207,
+	4964,
+	4864,
+	3697,
+	4864,
+	4964,
+	4857,
+	4115,
+	4494,
+	4964,
+	3554,
+	3791,
+	4494,
+	3791,
+	3339,
+	3554,
+	3554,
+	4494,
+	3791,
+	4864,
+	4101,
+	4864,
+	4964,
+	3397,
+	4864,
+	4964,
+	4864,
+	4864,
+	4113,
+	4494,
+	4857,
+	4857,
+	3336,
+	4593,
+	4919,
+	4964,
+	3207,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharpU2Dfirstpass_CodeGenModule;
+const Il2CppCodeGenModule g_AssemblyU2DCSharpU2Dfirstpass_CodeGenModule = 
+{
+	"Assembly-CSharp-firstpass.dll",
+	84,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL, // module initializer,
+	NULL,
+	NULL,
+	NULL,
+};
